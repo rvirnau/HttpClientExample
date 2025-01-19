@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EastWeatherStationService", "EastWeatherStationService\EastWeatherStationService\EastWeatherStationService.csproj", "{F0E8D79D-C53F-435C-947F-4FB3482CC214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestWeatherStationService", "WestWeatherStationService\WestWeatherStationService\WestWeatherStationService.csproj", "{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentWeatherService", "CurrentWeatherService\CurrentWeatherService.csproj", "{43A159BE-F03C-4AEE-BEDF-8C39846672C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentWeatherServiceUnitTests", "UnitTests\CurrentWeatherServiceUnitTests.csproj", "{394A194B-6CD6-41B0-921B-0C2E1474A509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CurrentWeatherServiceApi", "CurrentWeatherServiceApi", "{62466CC5-25E2-4437-9CB1-42F0A3723F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherStationServiceApis", "WeatherStationServiceApis", "{A71CAB97-29C8-47B8-9A52-F09C6CFF6C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWeatherStation", "NorthWeatherStation\NorthWeatherStation.csproj", "{E6BDA798-BE1D-443E-8EC3-43578A0040EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0E8D79D-C53F-435C-947F-4FB3482CC214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E8D79D-C53F-435C-947F-4FB3482CC214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E8D79D-C53F-435C-947F-4FB3482CC214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E8D79D-C53F-435C-947F-4FB3482CC214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A159BE-F03C-4AEE-BEDF-8C39846672C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A159BE-F03C-4AEE-BEDF-8C39846672C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A159BE-F03C-4AEE-BEDF-8C39846672C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A159BE-F03C-4AEE-BEDF-8C39846672C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394A194B-6CD6-41B0-921B-0C2E1474A509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A194B-6CD6-41B0-921B-0C2E1474A509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A194B-6CD6-41B0-921B-0C2E1474A509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A194B-6CD6-41B0-921B-0C2E1474A509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BDA798-BE1D-443E-8EC3-43578A0040EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BDA798-BE1D-443E-8EC3-43578A0040EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BDA798-BE1D-443E-8EC3-43578A0040EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BDA798-BE1D-443E-8EC3-43578A0040EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0E8D79D-C53F-435C-947F-4FB3482CC214} = {A71CAB97-29C8-47B8-9A52-F09C6CFF6C32}
+		{DB89FBC2-A67F-4BC4-86F2-11387F0AB88E} = {A71CAB97-29C8-47B8-9A52-F09C6CFF6C32}
+		{43A159BE-F03C-4AEE-BEDF-8C39846672C6} = {62466CC5-25E2-4437-9CB1-42F0A3723F62}
+		{394A194B-6CD6-41B0-921B-0C2E1474A509} = {62466CC5-25E2-4437-9CB1-42F0A3723F62}
+		{E6BDA798-BE1D-443E-8EC3-43578A0040EF} = {A71CAB97-29C8-47B8-9A52-F09C6CFF6C32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7464FBA1-FDAD-4CD7-BC20-57D4F5FA289B}
+	EndGlobalSection
+EndGlobal

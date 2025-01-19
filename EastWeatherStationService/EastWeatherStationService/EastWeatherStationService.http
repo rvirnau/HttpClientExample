@@ -1,0 +1,6 @@
+@EastWeatherStationService_HostAddress = http://localhost:5188
+
+GET {{EastWeatherStationService_HostAddress}}/eastweatherstaionservice/
+Accept: application/json
+
+###
